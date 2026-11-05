@@ -4,6 +4,8 @@ DealSmart is a full CRM/ERP for import and commodity trading companies. It track
 
 I'm co-founder and developer. It started as a freelance ERP for a client and grew into a product we're developing together.
 
+**How it was built:** AI-first. I used Lovable and Claude to move fast, and I owned the product: the trade workflow, the data model, multi-tenant security, the AI pipelines and the integrations. A real client runs their deals on it today. Now I'm taking it off Lovable to a codebase and infrastructure I run myself (see What's next).
+
 > 🔒 **The source code is private** since this is an active product. Happy to walk through the code and architecture in an interview.
 
 ### Deals pipeline – 13 trade stages from RFQ to port of discharge
@@ -88,6 +90,7 @@ flowchart LR
 
 ## What's next
 
+- Moving development off Lovable to a standard local workflow (Vite, Git, CI)
 - Moving the database and backend to AWS (RDS PostgreSQL, Lambda)
 - Real supplier-verification providers in place of the current simulated checks
 
