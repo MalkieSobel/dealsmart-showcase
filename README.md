@@ -49,7 +49,8 @@ I'm co-founder and developer. It started as a freelance ERP for a client and gre
 - Price trend charts, seasonality, supply/demand and forecasts per commodity
 
 **Integrations**
-- WhatsApp webhook (Meta Cloud API) and inbound email, both feeding a processing queue
+- WhatsApp webhook (Meta Cloud API) and inbound email that bring messages and attachments into the workspace
+- Background job queue with retries and a dead-letter state for heavy AI work
 - Google Drive (OAuth) for documents
 - Public share links for tasks, so outside people can view or update without an account
 
